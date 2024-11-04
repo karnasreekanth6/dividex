@@ -12,6 +12,7 @@ var pool = mysql.createPool(
   // connectionLimit: 10,
   // timeout: 60 * 60 * 1000,
   // waitForConnections: true,
+  
 }
 );
 console.log(process.env.LOCAL_DB_NAME);
